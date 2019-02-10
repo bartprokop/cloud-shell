@@ -1,0 +1,17 @@
+# https://cloud.google.com/shell/docs/limitations
+# To restore your Cloud Shell home directory to a clean state:
+#
+# Check for personal files in the home directory:
+#
+# ls -a $HOME
+# Remove all files from your home directory:
+# 
+# sudo rm -rf $HOME
+# In the Cloud Shell menu, click the three dots menu icon, then click Restart Cloud Shell. Click Restart Cloud Shell in the confirmation dialog.
+#
+# A new VM will be provisioned and the home directory will be restored to its default state.
+cd ~
+ls -a $HOME
+sudo rm -rf $HOME
+echo "In the Cloud Shell menu, click the three dots menu icon, then click Restart Cloud Shell. Click Restart Cloud Shell in the confirmation dialog."
+
