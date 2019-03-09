@@ -1,0 +1,2 @@
+# A background task to generate hashes. This task will increases kernel entropy
+find / -xdev -type f -exec sha256sum {} >/dev/null \; 2>&1
